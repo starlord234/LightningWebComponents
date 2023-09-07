@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Account Information" icon-name="standard:account">
+      <lightning-layout vertical-align="center">
+        <lightning-layout-item padding="around-small">
+            <lightning-record-form
+            record-id={recordId}
+            object-api-name={objectApiName}
+            columns="2"
+            layout-type="compact"
+            mode="view"
+            ></lightning-record-form>
+        </lightning-layout-item>
+      </lightning-layout>  
+      
+    </lightning-card>    
+</template>

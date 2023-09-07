@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="CarList" icon-name="custom:custom14">
+        <lightning-layout vertical-align="center">
+            <lightning-layout-item padding="around-small">
+                <template for:each={carlist} for:item="cars" for:index="Index">
+                     {carlist}
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card> 
+    <lightning-card title="programming list" icon-name="custom:custom4">
+        <ul class="slds-m-around_medium">
+            <template for:each={programminglist} for:item="programlist" for:index="index">  
+                show this in the salesforce home page and the prohibited
+            </template>
+        </ul>
+    </lightning-card>
+</template>
